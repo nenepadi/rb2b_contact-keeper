@@ -22,6 +22,6 @@
         "server": "nodemon server.js",
         "client": "npm start --prefix client",
         "clientinstall": "yarn install --cwd client",
-        "dev": "concurrently \"npm run server\" \"npm run client\""
+        "dev": "concurrently \"yarn server\" \"yarn client\""
     }
 }
